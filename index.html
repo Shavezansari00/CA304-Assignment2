@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collee Project</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:ital@1&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.js">
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+        color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 33, 78);
+    box-shadow: 0 0 15px rgb(58, 20, 20);
+    margin-bottom: 60px;
+
+}
+
+.logp-di{
+    margin-left: 30px;
+    margin-top: 20px;
+    background: transparent;
+}
+.navi{
+    margin-right: 30px;
+    margin-top: 25px;
+background: transparent;
+
+}
+
+header nav{
+    background: transparent;
+    justify-content: center;
+}
+
+nav a{
+    text-align: center;
+    justify-content: space-between;
+    margin: 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    font-size: 12px;
+
+}
+nav a:hover{
+    text-align: center;
+    justify-content: space-between;
+    margin: 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(166, 46, 226);
+
+}
+
+.text-1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background: transparent;
+}
+.text-2{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    background: transparent;
+}
+
+.home{
+    background-color: rgb(142, 30, 247);
+    padding: 9px 20px;
+    border-radius: 25px;
+    transition: .3s;
+    background: transparent;
+
+}
+.home:hover{
+    background-color: rgb(105, 32, 173);
+    padding: 8px 20px;
+    border-radius: 25px;
+    color: white;
+    background: transparent;
+
+}
+.sec-1{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 230px;
+    background: transparent;
+
+}
+div .heading-1{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+
+    margin-top: 15px;
+    text-align: center;
+    background: transparent;
+
+}
+div .heading-1 a{
+    color:rgb(142, 30, 247) ;
+    text-decoration: dashed;
+    background: transparent;
+
+}
+div .heading-1 a:hover{
+    color:rgb(142, 30, 247) ;
+    text-decoration: dashed;
+
+}
+.p1{
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: transparent;
+    
+
+  
+}
+
+div .b1{
+    background-color: rgb(142, 30, 247) ;
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Poppins';
+    transition: .4s;
+    text-decoration: none;
+    margin-top: 40px;
+    box-shadow: 0 0 15px rgb(58, 20, 20);
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+
+    
+}
+div .b1:hover{
+    align-items: center;
+    background-color: rgb(81, 29, 129) ;
+    padding: 8px 15px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+
+
+.sec-2{
+    height: 750px;
+    width: 100%;
+    background: transparent;
+    /* margin-top: 750px; */
+}
+
+.s1{
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: underline;
+    transition: .4s;
+    background: transparent;
+
+    
+}
+.s1:hover{
+    text-decoration: none;
+    text-shadow: 0 0 15px rgb(210, 74, 228);
+    color: rgb(165, 100, 226);
+
+}
+
+.sec-2 h4 a{
+    text-decoration: none;
+    background: transparent;
+
+}
+
+
+
+.sec-2 h4{
+    align-items: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    background: transparent;
+
+
+}
+.sub-sec-1{
+    border: 5px solid blueviolet;
+    box-shadow: 0 0 15px rgb(58, 20, 20);
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 40px;
+    background: transparent;
+
+}
+.sub-sec-1 ul{
+   align-items: center;
+   list-style-type:none;
+   margin: 16px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 10px;
+   background: transparent;
+
+}
+.sub-sec-1 ul li{
+   align-items: center;
+   text-align: center;
+   /* padding: 15px; */
+   background: transparent;
+
+
+}
+.h1s{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    background: transparent;
+
+
+}
+
+
+
+.sub-sec-2{
+    border: 5px solid blueviolet;
+    box-shadow: 0 0 15px rgb(58, 20, 20);
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 40px;
+    background: transparent;
+}
+
+.l1{
+    font-size: 15px;
+    color: blueviolet;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: .4s;
+    background: transparent;
+
+}
+.l1:hover{
+    text-shadow: 0 0 15px rgb(226, 39, 243);
+    font-size: 16px;
+    background: transparent;
+
+}
+
+
+
+.sec-3{
+    height: 600px;
+    width: 100%;
+    background: transparent;
+
+}
+.sec-3 h4 a{
+    text-decoration: none;
+    background: transparent;
+
+}
+
+
+
+.sec-3 h4{
+    align-items: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    background: transparent;
+
+
+}
+.sub-sec-3{
+    border: 5px solid blueviolet;
+    box-shadow: 0 0 15px rgb(58, 20, 20);
+    margin: auto;
+    width: max-content;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 3px;
+    background: transparent;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+    margin-top: 30px;
+    background: transparent;
+
+  }
+
+
+.sec-4{
+    height: 550px;
+    width: 100%;
+    margin-top: 30px;
+    background: transparent;
+
+}
+.sub-sec-4{
+    border: 5px solid blueviolet;
+    box-shadow: 0 0 15px rgb(58, 20, 20);
+    margin: auto;
+    width: max-content;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 0px;
+    background: transparent;
+}
+.sec-4 h4{
+    align-items: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    background: transparent;
+
+
+}
+.sec-5 h3{
+    align-items: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-family: 'cursive', cursive;
+    background: transparent;
+
+}
+
+table img{
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 40px;
+margin-right: 40px;
+border-radius: 10px;
+object-fit: cover;
+background: transparent;
+
+}
+table{
+    background: transparent;
+}
+
+div table{
+    align-items: center;
+    background: transparent;
+
+}
+input{
+    padding: 5px 30px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background: transparent;
+
+}
+
+label{
+    margin-top: 60px;
+    background: transparent;
+
+}
+input{
+    background: transparent;
+    margin: 20px;
+}
+.sec-1{
+    background: transparent;
+
+}
+.sub-sec-2{
+    background: rgb(36, 12, 48);
+
+}
+h4{
+    background: transparent;
+
+}
+.sec-2 h4 a{
+    background: transparent;
+
+}
+.sec-5 h3 a{
+    background: transparent;
+    color: blueviolet;
+
+}
+.sec-5{
+    background: transparent;
+
+}
+.s1{
+    background: transparent;
+
+}
+td{
+    background: transparent;
+
+}
+span{
+    background: transparent;
+}
+.sec-4 h4 a{
+    background: transparent;
+}
+.sub-sec-2{
+    background: transparent;
+}
+.sec-5{
+    background: transparent;
+}
+.sec-4 h4 a{
+    color: blueviolet;
+}
+table,th,td
+  {
+    border:2px solid blueviolet;
+    background-color: rgb(36, 12, 48) ;
+  }
+  h2{
+    background: transparent;
+   
+  }
+ 
+
+
+  </style>
+  <script>
+    window.alert("Information Box : The Page Is Loaded successfully")
+
+    // const changeBackground = setTimeout(changetoBlack, 5000)
+    // function changetoBlack(){
+    //     const blueviolet = document.querySelector('style')
+    //     blueviolet.innerHTML = ''
+    // }
+    const changeBack = setTimeout(blueviolet, 5000)
+    function blueviolet(){
+        document.body.style.background = " rgb(36, 12, 48)"
+    }
+
+    const h4 = document.querySelector("h4")
+    function changeToBold(){
+        // h4.innerHTML = "h4 {font-style: italic;}"
+        document.getElementById("text10").style.font = " bold 40px arial,serif"
+    }
+    // function changeBack(){
+    //     // h4.innerHTML = "h4 {font-style: italic;}"
+    //     document.getElementById("text10").style.font = " 20px Dancing Script"
+    // }
+    
+   
+
+  </script>
+
+
+
+</head>
+<body>
+    <a name="top"></a>
+    <header>
+        <div class="logp-di">
+            <h5 class="text-1">Bachelor Of</h5>
+            <h5 class="text-2">Computer Application</h5>
+        </div>
+        <div class="navi">
+            <nav>
+                <a class="home" href="">Home</a>
+                <a href="https://www.wikipedia.org/">LAN</a>
+                <a href="https://www.wikipedia.org/">Wi-Fi</a>
+            </nav>
+        </div>
+    </header>
+    <!-- ------------------------------------------ -->
+    <div class="sec-1">
+        <h4 id="text10" onclick="changeToBold()" class="heading-1">Get Started</h4>
+        
+
+        <div class="sub-sec-2">
+            <center>
+                <button onclick="changeToBold()"> Click Me</button>
+
+            <form action=""><br>
+                <label class="names" for="Name">Name</label><br>
+                <input type="text"><br>
+                <label for="Name">Age</label><br>
+                <input type="text"><br>
+                <label for="Name">Address</label><br>
+                <input type="text"><br>
+                <label for="Name">Favorite Singer</label><br>
+                <input type="text"><br>
+                <label for="Name">Favorite Subject</label><br>
+
+                <input type="checkbox" id="vehicle1"  >
+                <label for="vehicle1"> CA301</label>
+                <input type="checkbox" id="vehicle2"  >
+                <label for="vehicle2"> CA302</label>
+                <input type="checkbox" id="vehicle3"  >
+                <label for="vehicle3"> CA303</label>
+                <input type="checkbox" id="vehicle1"  >
+                <label for="vehicle1"> CA304</label><br>
+                <input type="checkbox" id="vehicle2"  >
+                <label for="vehicle2"> CA307</label>
+                <input type="checkbox" id="vehicle3"  >
+                <label for="vehicle3"> CA310</label>
+                <input type="checkbox" id="vehicle2"  >
+                <label for="vehicle2"> CA311</label>
+                <input type="checkbox" id="vehicle3"  >
+                <label for="vehicle3"> CA312</label><br>
+                <button class="b1" href = 'https://iul.ac.in/ca/'"> SUBMIT</button>
+
+            </form>
+        </center>
+
+        </div>
+    </div>
+    <div class="sec-1">
+        <a class="img-link text10" href="https://www.iul.ac.in/"><img src="https://upload.wikimedia.org/wikipedia/en/8/86/Integral_University%2C_Lucknow_logo.png" alt="" width="100px" class="center">
+        </a>
+        <h4 class="heading-1 text10" >-Program Offered By- <br> <a href="http://iul.ac.in/CA"> Department of Computer Application </a></h4><br>
+
+        <div class="sub-sec-2">
+        <p  class="p1" style="font-size:15px;  margin: 40px; letter-spacing: 1px; line-height: 28px;">
+            Focusing on expertise in communication systems and information technology and their <br> effective application in business issues, <br> <br>
+
+            This undergraduate program covers various aspects of <strong> ' computer applications ' </strong> and integrates <br> the latest industry developments in the course curriculum. <br> <br>
+            The graduates of the program have a solid foundation in industrial computing or important <br> aspects of computer science and analyze and optimize the use of latest <br> technologies in the business environment. <br> <br>
+            They are well-equipped to work as professionals in the 
+            fields of software development, design <br> and implementation. <br> <br>
+            <audio controls>
+                <source src="https://upload.wikimedia.org/wikipedia/commons/5/50/Jana_gana_mana_vocal.ogg" type="audio/ogg">
+            </audio> <br>
+            <button class="b1" onclick="window.location.href = 'https://iul.ac.in/ca/'">Start Exploring</button>
+
+         
+        </p>
+    </div>
+    </div>
+
+    <!-- ---------------Sectin 1 End -->
+
+    <!-- -----------------section infra --------------------------- -->
+    <div class="sec-1">
+        <h4 class="heading-1" >-Infrastructure of- <br> <a href="http://iul.ac.in/CA"> University </a></h4><br>
+        <div class="sub-sec-4">
+            <table border="5" cellspacing="0" align="center">
+                    <td align="center">
+                        <img src="https://iul.ac.in/admissioninfo/Images/Hostel1.jpg" height="660" width="230"> 
+                    </td>
+                    <td align="center">
+                         <img src="https://iul.ac.in/admissioninfo/Images/ClassRoom.jpg" height="660" width="230"> 
+                    </td>
+                    <td align="center">
+                        <img src="https://iul.ac.in/admissioninfo/Images/auditorium.jpg" height="660" width="230"> 
+                    </td>
+                    <td align="center">
+                        <img src="https://iul.ac.in/admissioninfo/Images/library.jpg" height="660" width="230"> 
+                    </td>
+            </table>
+        </div>
+    </div>
+<!-- -----------------section infra  end --------------------------- -->
+
+
+    <!-- <hr> -->
+    <!-- ---------------Sectin 2 Start -->
+    <div class="sec-2">
+        <h4>-Eligibility & More- <br> <a href="http://iul.ac.in/admissioninfo/FeeInd.aspx"> <span class="s1">Information</span></a></h4>
+        <div class="sub-sec-1">
+            
+            <ul class="ul-icons">
+                <li class="h1s">-Eligibilty-</li>
+            </ul>
+            <ul>
+                <li style="font-size:15px; text-align:justify;">A candidate must have passed 10+2 in any <strong> discipline with minimum 45% marks </strong> in aggregate from a recognized Board/ University.</li>
+            </ul>
+            <ul class="ul-icons">
+                <li class="h1s">-Admission Procedure-</li>
+            </ul>
+            <ul>
+                <li style="font-size:15px; text-align:justify;">Admission in all the courses will be based on merit.A course wise merit list will be called for counselling,which eventually would lead to the admission.</li>
+            </ul>
+            <ul>
+                <li class="h1s" >-Duration- </li>
+            </ul>
+            <ul>
+                <li> <strong> Bachelor of Computer Applications</strong> is a 3-year (6 semesters) programme for undergraduates seeking career in the IT industry. The degree is awarded for completing the programme in the study fields of software testing, web design, software development and programming, computer networking and computer systems</li>
+            </ul>
+            <ul>
+                <li class="h1s"> Fee Structure </li>
+            </ul>
+            <ul>
+                <li>To know about the fee structure, <a class="l1" href="http://iul.ac.in/admissioninfo/FeeInd.aspx"">Click Here</a> </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ------------------------SECTION 3 -->
+    <div class="sec-3">
+        <h4>-The Media- <br> <a href="http://iul.ac.in/admissioninfo/FeeInd.aspx"> <span class="s1">Section</span></a></h4>
+        <div class="sub-sec-3">
+            <iframe width="760" height="415" src="https://www.youtube.com/embed/vUZ5YfLqJHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+    <!-- -------------------SECTION 4 -->
+    <div class="sec-4">
+        <h4>-Time Table- <br> <a href="http://iul.ac.in/admissioninfo/FeeInd.aspx">Section</a></h4>
+        <div class="sub-sec-4">
+    <table border="5" cellspacing="0" align="center">
+        <!--<caption>Timetable</caption>-->
+        <tr>
+            <td bgcolor="rgb(36, 12, 48)" align="center" height="50"
+                width="100"><br>
+                <b>Day/Period</b></br>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>I<br>9:00-09:50</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>II<br>09:50-10:40</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>III<br>10:40-11:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>11:30-12:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>IV<br>12:20-1:30</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>V<br>1:30-2:20</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VI<br>2:20-3:10</b>
+            </td>
+            <td align="center" height="50"
+                width="100">
+                <b>VII<br>3:10-4:00</b>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Monday</b></td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-301</td>
+            <td align="center"
+                height="50">CA-307</td>
+                <td rowspan="6" align="center" height="50">
+                    <h2>L<br>U<br>N<br>C<br>H</h2>
+                </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-301</td>
+
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Tuesday</b>
+            </td>
+            <td align="center" height="50">CA-307</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50">CA-303</td>
+            <td colspan="3" align="center" height="50">CA-310</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Wednesday</b>
+            </td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-303</td>
+            <td align="center" height="50"></td>
+            <td align="center" height="50">CA-301</td>
+
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Thursday</b>
+            </td>
+            <td align="center" height="50">CA-307</td>
+            <td align="center" height="50"> </td>
+            <td colspan="2" align="center" height="50">CA-312</td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-303</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Friday</b>
+            </td>
+           
+            <td align="center" height="50"> </td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-301</td>
+            <td align="center" height="50">CA-302</td>
+            <td align="center" height="50"> </td>
+            <td align="center" height="50">CA-304</td>
+            <td align="center" height="50">CA-303</td>
+        </tr>
+        <tr>
+            <td align="center" height="50">
+                <b>Saturday</b>
+            </td>
+            <td colspan="3" align="center" height="50">CA-311</td>
+            <td align="center" height="50">CA-307</td>
+            <td colspan="3" align="center" height="50"> </td>
+        </tr>
+    </table>
+        </div>
+    </div>
+
+    <!-- ----------SECTION 5 -->
+    <div class="sec-5">
+        <center>
+
+            <h4> Get started by filling the following Registration form</h4>
+            <button class="b1" onclick="window.location.href = 'https://shavezansari00.github.io/registration-form/'">Let's GO</button>
+        </center>
+        <h3>Let's Get To The <a href="#top">Top</a></h3>
+    </div>
+
+
+    
+
+    </div>
+</body>
+</html>
